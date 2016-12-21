@@ -10,6 +10,8 @@ function fileReader(fileName){
     })
   })
 }
+
+
 let combined = [];
 fileReader("stuff.txt")
 .then((data)=>{
